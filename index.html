@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Glosario</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        .bg-imagen {
+            background-image: url("./img/inicio.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .gradient-custom {
+
+            background-image: linear-gradient(to right, rgba(72, 198, 239, 0.5), rgba(23, 69, 238, 0.5));
+            backdrop-filter: blur(5px);
+        }
+    </style>
+
+    <script src="./glosario.js"></script>
+
+</head>
+
+<body class="bg-imagen">
+
+    <script>
+        const container = document.createElement('div');
+        container.classList.add('container-fluid', 'd-flex', 'flex-column', 'align-items-center', 'p-0', 'gradient-custom');
+        container.style.minHeight = '100vh';
+
+        const headerDiv = document.createElement('div');
+        headerDiv.classList.add('d-flex', 'justify-content-center', 'align-items-center', 'text-white', 'w-100');
+        headerDiv.style.height = '150px';
+
+        const headerText = document.createElement('div');
+        headerText.classList.add('text-center');
+
+        const title = document.createElement('h1');
+        title.style.fontSize = '50px';
+        title.textContent = 'Glosario de Teleprocesos';
+
+        const author = document.createElement('h5');
+        author.textContent = 'By Genesis L. Delgado. H';
+
+        headerText.appendChild(title);
+        headerText.appendChild(author);
+        headerDiv.appendChild(headerText);
+        container.appendChild(headerDiv);
+
+        const contentContainer = document.createElement('div');
+        contentContainer.classList.add('container', 'mt-5', 'mb-5');
+
+        const tabContainer = document.createElement('div');
+        tabContainer.classList.add('shadow', 'bg-transparent');
+
+        const tabList = document.createElement('ul');
+        tabList.classList.add('nav', 'nav-tabs');
+        tabList.id = 'myTab';
+        tabList.setAttribute('role', 'tablist');
+
+        const tabContent = document.createElement('div');
+        tabContent.classList.add('tab-content', 'bg-white');
+        tabContent.id = 'myTabContent';
+
+        for (const [letter, terms] of Object.entries(glosario)) {
+            const tabItem = document.createElement('li');
+            tabItem.classList.add('nav-item');
+            tabItem.setAttribute('role', 'presentation');
+
+            const tabButton = document.createElement('button');
+            tabButton.classList.add('nav-link');
+            tabButton.style.color = 'pink';
+            tabButton.id = `${letter}-tab`;
+            tabButton.setAttribute('data-bs-toggle', 'tab');
+            tabButton.setAttribute('data-bs-target', `#${letter}-tab-pane`);
+            tabButton.setAttribute('type', 'button');
+            tabButton.setAttribute('role', 'tab');
+            tabButton.setAttribute('aria-controls', `${letter}-tab-pane`);
+            tabButton.setAttribute('aria-selected', 'false');
+            tabButton.textContent = letter.toUpperCase();
+
+            tabItem.appendChild(tabButton);
+            tabList.appendChild(tabItem);
+
+            const tabPane = document.createElement('div');
+            tabPane.classList.add('tab-pane', 'fade');
+            tabPane.style.padding = '6em';
+            tabPane.id = `${letter}-tab-pane`;
+            tabPane.setAttribute('role', 'tabpanel');
+            tabPane.setAttribute('aria-labelledby', `${letter}-tab`);
+            tabPane.setAttribute('tabindex', '-1');
+
+            Object.keys(terms).sort().forEach((term) => {
+                const termRow = document.createElement('div');
+                termRow.classList.add('row', 'row-cols-1');
+
+                const imageCol = document.createElement('div');
+                imageCol.classList.add('col', 'col-md-3');
+
+                const image = document.createElement('img');
+                image.classList.add('w-100');
+                image.src = terms[term].imagen_url;
+
+                imageCol.appendChild(image);
+
+                const contentCol = document.createElement('div');
+                contentCol.classList.add('col', 'col-md-9');
+
+                const termTitle = document.createElement('h4');
+                termTitle.classList.add('fw-bold', 'text-muted');
+                termTitle.textContent = term.toUpperCase();
+
+                const termDefinition = document.createElement('p');
+                termDefinition.style.fontSize = '20px';
+                termDefinition.textContent = terms[term].definicion;
+
+                contentCol.appendChild(termTitle);
+                contentCol.appendChild(termDefinition);
+
+                termRow.appendChild(imageCol);
+                termRow.appendChild(contentCol);
+
+                const hr = document.createElement('hr');
+
+                tabPane.appendChild(termRow);
+                tabPane.appendChild(hr);
+            });
+
+            tabContent.appendChild(tabPane);
+        }
+
+        tabContainer.appendChild(tabList);
+        tabContainer.appendChild(tabContent);
+        contentContainer.appendChild(tabContainer);
+        container.appendChild(contentContainer);
+
+        document.body.appendChild(container);
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
