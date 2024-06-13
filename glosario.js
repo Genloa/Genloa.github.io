@@ -107,11 +107,11 @@ let glosario = {
     "e": {
         "Espectro electromagnetico": {
             "definicion": "Conjunto de ondas electromagnéticas que abarca un rango continuo de frecuencias, desde las ondas de radio hasta los rayos gamma. Este espectro incluye ondas como las de radio, microondas, infrarrojos, luz visible, ultravioleta, rayos X y rayos gamma.",
-            "imagen_url": "./img/espectro.gif"
+            "imagen_url": "https://th.bing.com/th/id/R.02ff958fc17de46c7012c2f6a5549e4c?rik=gVyIoLi57XDzUg&pid=ImgRaw&r=0"
         },
         "Electromagnetico": {
             "definicion": "Campo de fuerza generado por la electricidad y el magnetismo. En el contexto de las señales, se refiere a las ondas electromagnéticas que se propagan a través del espacio y transportan energía electromagnética.",
-            "imagen_url": "./img/electromagnetico.gif"
+            "imagen_url": "https://i2.wp.com/noticieros.televisa.com/wp-content/uploads/2019/01/campo-magnetico.jpg?fit=1200%2C778&quality=95&ssl=1"
         },
         "Enrutamiento": {
             "definicion": "Proceso de enviar datos de un punto a otro a través de una red. En el contexto de las señales de comunicación, se refiere a la determinación de la ruta óptima para transmitir los datos desde el origen hasta el destino.",
@@ -163,7 +163,7 @@ let glosario = {
         },
         "GSM": {
             "definicion": "Sistema global para comunicaciones móviles. En el contexto de las señales de comunicación, se refiere a un estándar de comunicación utilizado en redes de telefonía móvil para la transmisión de voz y datos.",
-            "imagen_url": "https://cdn.appuals.com/wp-content/uploads/2022/12/what-is-gsm.webp"
+            "imagen_url": "https://i.ytimg.com/vi/HIQ8Z2xlCS8/maxresdefault.jpg"
         },
         "Gateway": {
             "definicion": "Dispositivo que conecta dos redes diferentes. En el contexto de las señales de comunicación, se refiere a un dispositivo que se utiliza para conectar dos redes de comunicación que utilizan diferentes protocolos o tecnologías, permitiendo la transferencia de datos entre ellas.",
