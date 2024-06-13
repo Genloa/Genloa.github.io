@@ -521,15 +521,15 @@ let glosario = {
     "v": {
         "VHF": {
             "definicion": "Frecuencia muy alta. Es una banda de frecuencia utilizada en comunicaciones inalámbricas, televisión y radio, que abarca desde 30 MHz hasta 300 MHz.",
-            "imagen_url": "./img/vhf.gif"
+            "imagen_url": "https://jobbiecrew.com/wp-content/uploads/2020/05/0marineradio.jpg"
         },
         "VPN": {
             "definicion": "Red privada virtual. Es una red segura que utiliza una red pública, como Internet, para establecer conexiones privadas y cifradas entre dispositivos remotos.",
-            "imagen_url": "./img/vpn.gif"
+            "imagen_url": "https://th.bing.com/th/id/R.0e40326346fb715d6525990750b6bff3?rik=8Qo7Kcl5iPnppQ&pid=ImgRaw&r=0"
         },
         "VSAT": {
             "definicion": "Terminal de satélite de banda muy pequeña. Es un sistema de comunicación satelital que utiliza antenas pequeñas para transmitir y recibir datos a través de satélites.",
-            "imagen_url": "./img/vsat.gif"
+            "imagen_url": "https://th.bing.com/th/id/R.3dedf039453807a0e597f19f1e4c6254?rik=A5tnvytLH5h8bA&pid=ImgRaw&r=0"
         },
         "V.24 (LA INTERFAZ DE COMUNICACIONES)": {
             "definicion": "Estándar de interfaz de comunicaciones. Es un estándar de la ITU-T que define las especificaciones para la conexión de dispositivos de comunicación, como módems y terminales, a través de una interfaz serie.",
