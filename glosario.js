@@ -511,7 +511,7 @@ let glosario = {
         },
         "Unipolar": {
             "definicion": "Señal con un solo nivel. Es una señal que tiene un único nivel de voltaje o corriente, generalmente utilizado en sistemas digitales para representar valores binarios.",
-            "imagen_url": "https://www.puntoelectrico.com.uy/wp-content/uploads/2020/10/Cable-Unipolar-01.png"
+            "imagen_url": "https://www.electromisiones.com.ar/1036-large_default/cable_unipolar_250mm2_x_10mts_celeste.jpg"
         },
         "Ultima Milla": {
             "definicion": "Último tramo de conexión en una red de comunicaciones. Se refiere a la parte final de la red que conecta a los usuarios finales con el proveedor de servicios de comunicaciones.",
