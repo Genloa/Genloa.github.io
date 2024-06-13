@@ -34,6 +34,18 @@ let glosario = {
             "definicion": "Conjunto de cables que conectan dispositivos. En el contexto de las señales, se refiere a un conjunto de cables que permite la transmisión de señales entre diferentes dispositivos en un sistema de comunicación.",
             "imagen_url": "./img/bus.gif"
         },
+        "Bridges (puentes)": {
+            "definicion": "Dispositivos que conectan dos redes. En el contexto de las señales de comunicación, se refiere a dispositivos que se utilizan para conectar dos redes de comunicación y permitir la transferencia de datos entre ellas.",
+            "imagen_url": "https://th.bing.com/th/id/R.ce694ac91b293bde45c66aca052689bf?rik=lVGqxVLe%2fEkb1w&riu=http%3a%2f%2fwww.learnabhi.com%2fwp-content%2fuploads%2f2018%2f01%2f2gif.gif&ehk=RwAus%2f8XnBZF%2f7%2bnsaww9w%2feji8YsxyA4%2fIcb1EVHm8%3d&risl=&pid=ImgRaw&r=0"
+        },
+        "BTS (Estación de base transmición)": {
+            "definicion": "Estación que controla las comunicaciones inalámbricas. En el contexto de las señales de comunicación, se refiere a una estación que controla la transmisión y recepción de señales en una red de telefonía móvil.",
+            "imagen_url": "https://www.semana.com/resizer/Avkzww0Q25ZGXJSHWPqthCMVucE=/1200x646/filters:format(jpg):quality(50)/cloudfront-us-east-1.images.arcpublishing.com/semana/XLJ3XYUNHVCZHE6JCHLS6S5ZTU.jpg"
+        },
+        "BSC (Controlador de estación base)": {
+            "definicion": "Dispositivo que controla las estaciones base en una red de telefonía móvil. En el contexto de las señales de comunicación, se refiere a un dispositivo que se utiliza para gestionar y controlar las estaciones base en una red de telefonía móvil.",
+            "imagen_url": "https://nickvsnetworking.com/wp-content/uploads/2020/03/BSC-Architecture.png"
+        },
     },
     "c": {
         "Cuantificación": {
@@ -60,6 +72,10 @@ let glosario = {
             "definicion": "Reducción del tamaño de una señal. En el contexto de las señales, se refiere al proceso de reducir la cantidad de datos necesarios para representar una señal sin perder información esencial.",
             "imagen_url": "https://www.monografias.com/trabajos5/elso/Image1238.gif"
         },
+        "CENTREX": {
+            "definicion": "Central telefónica privada. En el contexto de las señales de comunicación, se refiere a un sistema telefónico privado utilizado por una organización para gestionar las llamadas internas y externas.",
+            "imagen_url": "https://www.itbusinessconnect.fr/img/centrexshema.png"
+        }
     },
     "d": {
         "Digital": {
@@ -101,7 +117,10 @@ let glosario = {
             "definicion": "Proceso de enviar datos de un punto a otro a través de una red. En el contexto de las señales de comunicación, se refiere a la determinación de la ruta óptima para transmitir los datos desde el origen hasta el destino.",
             "imagen_url": "./img/enrutamiento.gif"
         },
-
+        "ETHERNET": {
+            "definicion": "Estándar de red de área local. En el contexto de las señales de comunicación, se refiere a un estándar de comunicación utilizado en redes de área local para la transmisión de datos a través de cables.",
+            "imagen_url": "https://www.businessinsider.in/photo/84910254/Master.jpg"
+        },
     },
     "f": {
         "Frecuencia": {
@@ -120,7 +139,22 @@ let glosario = {
             "definicion": "Desfase o retraso de una señal en relación con otra señal de referencia. En el contexto de las señales, se refiere a la diferencia en el tiempo o en la posición de una señal con respecto a otra señal de referencia.",
             "imagen_url": "./img/fase.gif"
         },
-
+        "Firewall": {
+            "definicion": "Sistema de seguridad que protege una red de comunicación. En el contexto de las señales de comunicación, se refiere a un sistema que controla y filtra el tráfico de datos entre una red privada y una red pública, con el fin de proteger la red privada de amenazas externas.",
+            "imagen_url": "https://th.bing.com/th/id/R.ffd7edfc78d8e52b2f37499935865b17?rik=o4XQoDFFb%2bhoZw&pid=ImgRaw&r=0"
+        },
+        "Frame Relay": {
+            "definicion": "Protocolo de conmutación de paquetes. En el contexto de las señales de comunicación, se refiere a un protocolo de red que se utiliza para la transmisión de datos en redes de área amplia (WAN) a través de circuitos virtuales.",
+            "imagen_url": "https://th.bing.com/th/id/OIP.BOyDAFCCBL8gSotxmCdTrwHaEe?rs=1&pid=ImgDetMain"
+        },
+        "FTTH (Fiber to the Home)": {
+            "definicion": "Fibra óptica hasta el hogar. En el contexto de las señales de comunicación, se refiere a una tecnología de acceso a internet que utiliza fibra óptica para llevar la conexión de banda ancha directamente a los hogares de los usuarios.",
+            "imagen_url": "https://th.bing.com/th/id/OIP.pZb3rPFuZ4L408G--1fXHQAAAA?rs=1&pid=ImgDetMain"
+        },
+        "FTTC (Fiber to the Curb)": {
+            "definicion": "Fibra óptica hasta la acera. En el contexto de las señales de comunicación, se refiere a una tecnología de acceso a internet que utiliza fibra óptica para llevar la conexión de banda ancha hasta la acera o la entrada de un edificio, y luego utiliza cableado de cobre para llegar hasta los hogares de los usuarios.",
+            "imagen_url": "https://openfiber.it/app/uploads/2019/07/infografica-linee-bollini_FTTH-FTTC.jpg"
+        },
     },
     "g": {
         "Geoestacionaria": {
@@ -131,18 +165,36 @@ let glosario = {
             "definicion": "Sistema global para comunicaciones móviles. En el contexto de las señales de comunicación, se refiere a un estándar de comunicación utilizado en redes de telefonía móvil para la transmisión de voz y datos.",
             "imagen_url": "https://cdn.appuals.com/wp-content/uploads/2022/12/what-is-gsm.webp"
         },
-
-
+        "Gateway": {
+            "definicion": "Dispositivo que conecta dos redes diferentes. En el contexto de las señales de comunicación, se refiere a un dispositivo que se utiliza para conectar dos redes de comunicación que utilizan diferentes protocolos o tecnologías, permitiendo la transferencia de datos entre ellas.",
+            "imagen_url": "https://th.bing.com/th/id/R.24b0d52b0b2989cc86e3b138aa5d1e25?rik=%2bumQA3JJUl15pQ&riu=http%3a%2f%2fwww.learnabhi.com%2fwp-content%2fuploads%2f2017%2f10%2fswitch-gateway.jpg&ehk=71cGvgn%2bo2OpcoejW39No0aHOPfuCb9RsGvYjlvev40%3d&risl=&pid=ImgRaw&r=0"
+        },
+        "GCU (Grupo de Control de Usuarios)": {
+            "definicion": "Grupo de usuarios de un sistema de comunicación. En el contexto de las señales de comunicación, se refiere a un grupo de usuarios que comparten un sistema de comunicación y que pueden acceder a los servicios y recursos de la red.",
+            "imagen_url": "https://th.bing.com/th/id/OIP.J_n9XjMksoGIzi7WXAIicQHaE_?rs=1&pid=ImgDetMain"
+        },
     },
     "h": {
         "HUB": {
             "definicion": "Concentrador de red. En el contexto de las señales de comunicación, se refiere a un dispositivo que permite la conexión de múltiples dispositivos en una red y facilita la transmisión de datos entre ellos.",
-            "imagen_url": "./img/hub.gif"
+            "imagen_url": "https://2.bp.blogspot.com/-nx7yuTFKSHU/T0kbUaA-owI/AAAAAAAAAQA/4ws046QVJho/s1600/hub3.jpg"
         },
         "Hertz": {
             "definicion": "Unidad de frecuencia. En el contexto de las señales, se refiere a una medida de la frecuencia de una señal, que representa el número de ciclos completos que la señal realiza en un segundo. Se abrevia como Hz.",
             "imagen_url": "https://audiocardio.com/wp-content/uploads/2021/03/Hertz.jpg"
         },
+        "HFC (Hybrid Fiber-Coax)": {
+            "definicion": "Red de fibra óptica y cable coaxial. En el contexto de las señales de comunicación, se refiere a una red que utiliza una combinación de fibra óptica y cable coaxial para la transmisión de señales de televisión, internet y telefonía.",
+            "imagen_url": "https://www.redeszone.net/app/uploads-redeszone.net/2021/12/fibra-ftth-vs-hfc.jpg"
+        },
+        "HTTP": {
+            "definicion": "Protocolo de transferencia de hipertexto. En el contexto de las señales de comunicación, se refiere a un protocolo de comunicación utilizado para la transferencia de datos en la World Wide Web.",
+            "imagen_url": "https://researchhubs.com/uploads/http-1.png"
+        },
+        "HTML (Hypertext Markup Language)": {
+            "definicion": "Lenguaje de marcado de hipertexto. En el contexto de las señales de comunicación, se refiere a un lenguaje de programación utilizado para la creación y el diseño de páginas web.",
+            "imagen_url": "https://th.bing.com/th/id/R.cc47dc6b300bd72d6931592269999a2f?rik=FF0mtNFi2T6z2w&riu=http%3a%2f%2ffresheropenings.com%2fwp-content%2fuploads%2f2020%2f08%2f170427-637251494437967118-16x9html.jpg&ehk=PXYvDWy8qSbgtAbitRwPjvV8UZ%2bAdogpiy46aXt12Xw%3d&risl=&pid=ImgRaw&r=0"
+        }
     },
     "i": {
         "Interferencia": {
@@ -169,6 +221,10 @@ let glosario = {
             "definicion": "Radiación que ioniza. En el contexto de las señales, se refiere a la radiación electromagnética o partículas cargadas que tienen suficiente energía para ionizar átomos o moléculas, lo que puede afectar la propagación de las señales de comunicación.",
             "imagen_url": "https://4.bp.blogspot.com/-rsk4gTQO5-M/Vbg0svn-GpI/AAAAAAAAAGU/DI0XDh268YE/w1200-h630-p-k-no-nu/Diapositiva5.JPG"
         },
+        "Iberpac": {
+            "definicion": "Red de paquetes de datos. En el contexto de las señales de comunicación, se refiere a una red de conmutación de paquetes utilizada para la transmisión de datos a través de líneas telefónicas.",
+            "imagen_url": "https://www.movistar.es/blog/wp-content/uploads/sites/3/2024/01/IBERPAC-1-1-e1704988040444.png"
+        }
     },
     "j": {
         "Jitter": {
@@ -189,7 +245,14 @@ let glosario = {
             "definicion": "Red de área local. En el contexto de las señales de comunicación, se refiere a una red que conecta dispositivos en un área geográfica limitada, como una oficina, un edificio o un campus, permitiendo la comunicación y el intercambio de datos entre ellos.",
             "imagen_url": "https://www.redeszone.net/app/uploads-redeszone.net/2019/08/LAN_y_WLAN_apertura.jpg"
         },
-
+        "LGT (Ley General de telecomunicaciones)": {
+            "definicion": "Ley que regula las telecomunicaciones en un país. En el contexto de las señales de comunicación, se refiere a la normativa que establece las reglas y los requisitos para el uso de los servicios de telecomunicaciones en un país.",
+            "imagen_url": "https://www.ciberriesgos.com/wp-content/uploads/2023/07/Ley-General-de-Telecomunicaciones-1-1024x576.jpg"
+        },
+        "Linea de abonado": {
+            "definicion": "Línea telefónica que conecta un usuario con la central telefónica. En el contexto de las señales de comunicación, se refiere a la conexión física que permite a un usuario acceder a los servicios de telefonía fija.",
+            "imagen_url": "https://i.ytimg.com/vi/q7_Mel5CP_g/maxresdefault.jpg"
+        },
     },
     "m": {
         "Modulación": {
@@ -219,6 +282,14 @@ let glosario = {
         "Multimodo": {
             "definicion": "Tipo de fibra óptica que permite la transmisión de múltiples modos de luz, lo que puede causar dispersión y atenuación de la señal a distancias largas.",
             "imagen_url": "https://munred.store/1239-large_default/fibra-om4-12-hilos-lszh-intext-riser-commscope-amp.jpg"
+        },
+        "MNP (Microcom Network Protocol)": {
+            "definicion": "Protocolo de comunicación utilizado para la corrección de errores en la transmisión de datos a través de líneas telefónicas.",
+            "imagen_url": "https://propakistani.pk/wp-content/uploads/2010/01/MNP_004.jpg"
+        },
+        "MAN (Metropolitan Area Network)": {
+            "definicion": "Red de área metropolitana. En el contexto de las señales de comunicación, se refiere a una red que conecta dispositivos en un área geográfica más grande que una red de área local (LAN) pero más pequeña que una red de área amplia (WAN), como una ciudad o una región.",
+            "imagen_url": "https://th.bing.com/th/id/OIP.8UMR7hcygeZKGKnws0AZYgHaE_?rs=1&pid=ImgDetMain"
         },
     },
     "n": {
@@ -299,6 +370,14 @@ let glosario = {
             "definicion": "Unidad de datos que se envía a través de una red de comunicación, que contiene información y metadatos para su entrega y procesamiento.",
             "imagen_url": "https://th.bing.com/th/id/R.fd5c7b396eb4c43f15407c61802b517f?rik=A1iveXzxhPy3yg&riu=http%3a%2f%2f4.bp.blogspot.com%2f_dixV1WfSyy4%2fTOhhlqeKrSI%2fAAAAAAAAAEc%2frCx3aq719dI%2fs1600%2fwww-paquetes.jpg&ehk=642uiCU5w77v9DmduH8JmsDe6%2buh6jFurXefy7wY%2flk%3d&risl=&pid=ImgRaw&r=0"
         },
+        "PBX": {
+            "definicion": "Central telefónica privada. En el contexto de las señales de comunicación, se refiere a un sistema telefónico privado utilizado por una organización para gestionar las llamadas internas y externas.",
+            "imagen_url": "https://th.bing.com/th/id/OIP.Y6ifVZlQp429Gq87FY1cWgHaGK?rs=1&pid=ImgDetMain"
+        },
+        "PAN (Personal Area Network)": {
+            "definicion": "Red de área personal. En el contexto de las señales de comunicación, se refiere a una red de comunicación inalámbrica que conecta dispositivos personales en un área cercana, como un teléfono móvil, una computadora portátil o una impresora.",
+            "imagen_url": "https://th.bing.com/th/id/R.ba31477358c98f7a5068466ef15aff62?rik=KH5ODbjKnyRALw&pid=ImgRaw&r=0"
+        },
     },
     "q": {
         "QAM": {
@@ -352,7 +431,10 @@ let glosario = {
             "definicion": "Paquetes de datos enviados en ráfagas. Son grupos de paquetes de datos que se envían en ráfagas cortas y rápidas, lo que permite una transmisión más eficiente de grandes volúmenes de datos en una red de comunicaciones.",
             "imagen_url": "https://3.bp.blogspot.com/-TbmVV99N-t0/WC6NO7BVxGI/AAAAAAAAADg/Www6A43HluEs8eBQG51PW2tI7exQMlLVwCLcB/s1600/pak.jpg"
         },
-
+        "RDSI (Red Digital de Servicios Integrados)": {
+            "definicion": "Red de comunicaciones digitales. Es una red de telecomunicaciones que utiliza tecnología digital para la transmisión de voz, datos y video, permitiendo la integración de múltiples servicios en una sola red.",
+            "imagen_url": "https://image.slidesharecdn.com/unifieerdsisesion06sealizacionrdsi-110509160651-phpapp02/95/uni-fiee-rdsi-sesion-06-sealizacion-rdsi-3-728.jpg?cb=1304957366"
+        },
     },
     "s": {
         "Sincrono": {
@@ -363,7 +445,10 @@ let glosario = {
             "definicion": "Proceso de enviar señales para controlar, coordinar o transmitir información en un sistema de comunicación.",
             "imagen_url": "https://th.bing.com/th/id/R.efca842c6b6d8f43806ad70ff5b7c0b1?rik=Qa28M7ndoNWKgg&pid=ImgRaw&r=0"
         },
-
+        "SONET/SDH": {
+            "definicion": "Red óptica síncrona. Es un estándar de transmisión de datos de alta velocidad utilizado en las redes de telecomunicaciones para la transmisión de voz, datos y video a través de fibra óptica.",
+            "imagen_url": "https://static.javatpoint.com/difference/images/sonet-vs-sdh.png"
+        },
     },
     "t": {
         "Transductor": {
@@ -390,6 +475,22 @@ let glosario = {
             "definicion": "Comunicación por medio de señales eléctricas o electromagnéticas, generalmente utilizada para transmitir mensajes de texto a larga distancia.",
             "imagen_url": "https://d1mrtjpezxphht.cloudfront.net/wp-content/uploads/2022/05/telegrafia-125-anios-.jpg"
         },
+        "Trunking": {
+            "definicion": "Sistema de comunicación que permite compartir un grupo de canales de comunicación entre varios usuarios, optimizando el uso de los recursos y la capacidad de la red.",
+            "imagen_url": "./img/Trunking.jpg"
+        },
+        "TOKEN RING": {
+            "definicion": "Protocolo de red de área local que utiliza un token para controlar el acceso a la red y evitar colisiones en la transmisión de datos.",
+            "imagen_url": "https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/token-ring-EN-1.png"
+        },
+        "Token passing": {
+            "definicion": "Método de acceso a la red en el que los dispositivos utilizan un token para transmitir datos en una red de área local.",
+            "imagen_url": "https://3.bp.blogspot.com/-cbO-5-twa7s/T0Fzi7-CrOI/AAAAAAAAAFU/vaMFfp6xaEQ/s1600/token+pass.gif"
+        },
+        "TELNET": {
+            "definicion": "Protocolo de red que permite la conexión remota a un servidor o dispositivo a través de una red de comunicaciones, generalmente utilizado para administrar sistemas y dispositivos de forma remota.",
+            "imagen_url": "https://www.cloudns.net/blog/wp-content/uploads/2023/12/Telnet.png"
+        },
     },
     "u": {
         "UTP": {
@@ -412,7 +513,10 @@ let glosario = {
             "definicion": "Señal con un solo nivel. Es una señal que tiene un único nivel de voltaje o corriente, generalmente utilizado en sistemas digitales para representar valores binarios.",
             "imagen_url": "https://www.puntoelectrico.com.uy/wp-content/uploads/2020/10/Cable-Unipolar-01.png"
         },
-
+        "Ultima Milla": {
+            "definicion": "Último tramo de conexión en una red de comunicaciones. Se refiere a la parte final de la red que conecta a los usuarios finales con el proveedor de servicios de comunicaciones.",
+            "imagen_url": "https://economipedia.com/wp-content/uploads/ULTIMA-MILLA-1.jpg"
+        },
     },
     "v": {
         "VHF": {
@@ -426,6 +530,14 @@ let glosario = {
         "VSAT": {
             "definicion": "Terminal de satélite de banda muy pequeña. Es un sistema de comunicación satelital que utiliza antenas pequeñas para transmitir y recibir datos a través de satélites.",
             "imagen_url": "./img/vsat.gif"
+        },
+        "V.24 (LA INTERFAZ DE COMUNICACIONES)": {
+            "definicion": "Estándar de interfaz de comunicaciones. Es un estándar de la ITU-T que define las especificaciones para la conexión de dispositivos de comunicación, como módems y terminales, a través de una interfaz serie.",
+            "imagen_url": "https://files1.kyozou.com/Pictures/_46/45503/45502794.jpg"
+        },
+        "VoIP": {
+            "definicion": "Voz sobre Protocolo de Internet. Es una tecnología que permite la transmisión de voz y datos a través de redes IP, como Internet, en lugar de las redes telefónicas tradicionales.",
+            "imagen_url": "https://getvoip.com/uploads/VoIP.jpg"
         },
     },
     "w": {
@@ -445,6 +557,18 @@ let glosario = {
             "definicion": "Unidad de potencia. Es la unidad de medida utilizada para cuantificar la cantidad de energía transferida o consumida por unidad de tiempo.",
             "imagen_url": "https://cdn11.bigcommerce.com/s-z25w13u/product_images/uploaded_images/watt-forumla.png"
         },
+        "WAP (Punto de Acceso Inalámbrico)": {
+            "definicion": "Dispositivo que permite la conexión inalámbrica a una red. Es un dispositivo utilizado en redes inalámbricas para proporcionar acceso a Internet y otros servicios a dispositivos inalámbricos.",
+            "imagen_url": "./img/WAP.jpg"
+        },
+        "WAN (Red de Área Amplia)": {
+            "definicion": "Red de comunicación que abarca un área geográfica extensa, como una ciudad, un país o incluso a nivel mundial. Se utiliza para conectar redes locales y permitir la comunicación entre dispositivos remotos.",
+            "imagen_url": "https://th.bing.com/th/id/R.139576ac82d135f70ca53aab9ed3423a?rik=rqMctux9JXstFw&riu=http%3a%2f%2fwww.bbc.co.uk%2fschools%2fgcsebitesize%2fict%2fimages%2fwan.gif&ehk=SAoTKL6cW2jHtUf4Nhznch4FWFpHhLoR5cLyVvuo6ds%3d&risl=&pid=ImgRaw&r=0"
+        },
+        "WLAN (Red de Área Local Inalámbrica)": {
+            "definicion": "Red de comunicación inalámbrica que conecta dispositivos en un área local, como una oficina, un campus o un hogar. Se utiliza para proporcionar acceso a Internet y compartir recursos entre dispositivos inalámbricos.",
+            "imagen_url": "https://www.zenarmor.com/docs/assets/images/what-is-wlan-and-advantages-of-wlan-fb66c8e179e2e625c7a5b6fdc5b83549.png"
+        }
     },
     "x": {
         "X.25": {
@@ -463,21 +587,25 @@ let glosario = {
             "definicion": "Es un protocolo de red que se utiliza para la gestión de certificados digitales. Define el formato de los certificados digitales y los procedimientos para su emisión, revocación y verificación.",
             "imagen_url": "https://ee2cc1f8.rocketcdn.me/wp-content/uploads/2019/09/faq-x.509-04.png"
         },
+        "XML (Lenguaje de Marcado Extensible)": {
+            "definicion": "Es un lenguaje de marcado que se utiliza para definir reglas de codificación de documentos en un formato legible por humanos y máquinas. Se utiliza para estructurar y almacenar datos en archivos de texto.",
+            "imagen_url": "https://th.bing.com/th/id/R.768d071405c2ebb4e3356f9d7d665daa?rik=NBzxeSdph7YmMQ&riu=http%3a%2f%2fpassyworldofict.com%2fwp-content%2fuploads%2f2019%2f04%2fXMLRead01.jpg&ehk=qDE5qzGerovMDQUNaa5mGft36s7onePCxE4UJHT%2fb1E%3d&risl=&pid=ImgRaw&r=0"
+        }
     },
     "y": {
         "Yagi": {
             "definicion": "Antena direccional. Es un tipo de antena utilizada en comunicaciones inalámbricas para transmitir y recibir señales en una dirección específica. La antena Yagi se compone de elementos conductores y un reflector que dirigen la señal en una dirección deseada.",
             "imagen_url": "https://antennabasics.com/wp-content/uploads/2020/08/Yagi-Antenna.jpg"
         },
+        "Yaml (Lenguaje de Marcado de Ain't Markup Language)": {
+            "definicion": "Es un formato de serialización de datos que se utiliza para representar información estructurada en archivos de texto. Se utiliza para almacenar y compartir datos en un formato legible por humanos y máquinas.",
+            "imagen_url": "https://th.bing.com/th/id/R.100f404cd2f9aeb2680a104498c3b501?rik=r30XNT7doBP3BA&pid=ImgRaw&r=0"
+        },
     },
     "z": {
         "Zapping": {
             "definicion": "Acción de cambiar rápidamente entre canales o conexiones en sistemas de teleprocesos, especialmente en televisión o navegación web.",
             "imagen_url": "https://www.nuovomille.it/wp-content/uploads/2023/09/Cose-lo-zapping.jpg"
-        },
-        "Zócalo": {
-            "definicion": "Conector de un circuito integrado",
-            "imagen_url": "https://thumbs.dreamstime.com/b/placa-madre-del-ordenador-z%C3%B3calo-de-la-cpu-dof-47946966.jpg"
         },
         "Zona DMZ": {
             "definicion": "En seguridad de redes, una DMZ es una subred física o lógica que separa una red interna de una externa, como Internet, y se utiliza para proporcionar servicios externos sin comprometer la seguridad de la red interna.",
