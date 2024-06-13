@@ -40,7 +40,7 @@ let glosario = {
         },
         "BTS (Estación de base transmición)": {
             "definicion": "Estación que controla las comunicaciones inalámbricas. En el contexto de las señales de comunicación, se refiere a una estación que controla la transmisión y recepción de señales en una red de telefonía móvil.",
-            "imagen_url": "https://www.semana.com/resizer/Avkzww0Q25ZGXJSHWPqthCMVucE=/1200x646/filters:format(jpg):quality(50)/cloudfront-us-east-1.images.arcpublishing.com/semana/XLJ3XYUNHVCZHE6JCHLS6S5ZTU.jpg"
+            "imagen_url": "https://th.bing.com/th/id/OIP.GvFy8P-JywUiAtzz3R42DgHaEn?rs=1&pid=ImgDetMain"
         },
         "BSC (Controlador de estación base)": {
             "definicion": "Dispositivo que controla las estaciones base en una red de telefonía móvil. En el contexto de las señales de comunicación, se refiere a un dispositivo que se utiliza para gestionar y controlar las estaciones base en una red de telefonía móvil.",
