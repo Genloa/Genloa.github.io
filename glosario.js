@@ -541,10 +541,6 @@ let glosario = {
         },
     },
     "w": {
-        "WAN": {
-            "definicion": "Red de área amplia. Es una red de comunicaciones que abarca un área geográfica extensa, como una ciudad, un país o incluso a nivel mundial.",
-            "imagen_url": "https://blog.iterin.com/wp-content/uploads/2013/08/todo-sobre-vhf-con-dsc.jpg"
-        },
         "WIFI": {
             "definicion": "Red inalámbrica. Es una red de comunicaciones que utiliza ondas de radio para transmitir datos de forma inalámbrica entre dispositivos.",
             "imagen_url": "https://th.bing.com/th/id/R.bf4c841600b9a6b133f4ee8b3fec707b?rik=Ym30t%2b9vaDNscg&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fwifi-png-wi-fi-png-png-image-2000.png&ehk=nt0Cc9kwPvXdkT3HAgWmNhu%2fxXGLp6Z6h1fZk24lmeM%3d&risl=&pid=ImgRaw&r=0"
